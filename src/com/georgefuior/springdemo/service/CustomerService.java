@@ -1,11 +1,10 @@
-package com.georgefuior.springdemo.dao;
+package com.georgefuior.springdemo.service;
 
 import java.util.List;
 
 import com.georgefuior.springdemo.entity.Customer;
 
-
-public interface CustomerDAO {
+public interface CustomerService {
 
 	public List<Customer> getCustomers();
 
